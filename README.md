@@ -2,7 +2,7 @@
 
 **A policy framework for municipal compute rights, sovereign model governance, and accountable AI in public services.**
 
-→ [View the Framework Website](https://dicemanorama.github.io/Civic_Compute_Framework) *(live once GitHub Pages is enabled)*
+→ [View the Framework Website](https://dicemanorama.github.io/Civic_Compute_Framework) 
 
 ---
 
