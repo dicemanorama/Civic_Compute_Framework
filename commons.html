@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commons — Civic Compute Framework</title>
+  <meta name="description" content="A model commons with standardized outputs, open weights, and registry contribution mechanics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Roboto+Slab:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-brand" href="index.html">Civic Compute</a>
+      <ul class="nav-links">
+        <li><a href="framework.html">Framework</a></li>
+        <li><a href="compute.html">Compute</a></li>
+        <li><a href="accountability.html">Accountability</a></li>
+        <li><a href="commons.html" class="is-active" aria-current="page">Commons</a></li>
+        <li><a href="principles.html">Principles</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <h1 id="commons-heading" class="reveal">A Library of Validated Public-Sector Models</h1>
+        <p class="page-lead reveal">Standardized output contracts so improvements propagate — not isolated legacy forks.</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="commons-heading">
+      <div class="container">
+        <p class="commons-body reveal">Open source software promised shared infrastructure but largely produced shared code that each jurisdiction customized into isolated legacy systems. A model commons governed by standardized output contracts can break that pattern. When a county solves a hard problem well, the improvement propagates. The ecosystem learns. Every region benefits from real-world performance data that no benchmark can replicate.</p>
+        <div class="feature-row">
+          <div class="feature-item reveal">
+            <span class="emoji" aria-hidden="true">🔓</span>
+            <strong>Open Weights</strong>
+            <span>Model weights are public property, not vendor assets</span>
+          </div>
+          <div class="feature-item reveal">
+            <span class="emoji" aria-hidden="true">🔁</span>
+            <strong>Regional Maintenance</strong>
+            <span>Updates and improvements contributed back to the commons</span>
+          </div>
+          <div class="feature-item reveal">
+            <span class="emoji" aria-hidden="true">📊</span>
+            <strong>Performance-Driven</strong>
+            <span>Models surface by real outcomes, not marketing claims</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section aria-labelledby="contribution-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="subhead">How Contribution Works</p>
+          <h2 id="contribution-heading">Contributing to the Registry</h2>
+        </header>
+        <div class="commons-extra reveal">
+          <p>A county fine-tunes a zoning review model on three years of local permit decisions. The fine-tune improves accuracy on edge cases involving mixed-use parcels. They submit to the registry with: (a) the model weights, (b) a model card describing training data, known limitations, and equity audit results, (c) a regression test suite against the standardized output schema, (d) performance delta vs. the baseline model.</p>
+          <p>The registry runs automated schema compliance checks. A multi-stakeholder review board (elected officials, civic tech orgs, academics, public input) evaluates the model card. If accepted, the improvement is available to every jurisdiction on the next registry update.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section aria-labelledby="validation-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="subhead">What "Validated" Means</p>
+          <h2 id="validation-heading">Validation Criteria</h2>
+        </header>
+        <div class="commons-extra reveal">
+          <p>A model is registry-eligible if it meets all of the following:</p>
+          <ul class="validation-list">
+            <li>Produces output compliant with the relevant state-defined schema</li>
+            <li>Ships with a model card covering training data provenance, known failure modes, and bias/equity audit results</li>
+            <li>Passes a regression test suite against historical decisions from the submitting jurisdiction</li>
+            <li>Includes an explainability summary: what changed from the prior version and what the measurable downstream effects were</li>
+            <li>Meets a minimum energy efficiency threshold (to be defined by the registry board)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="footer-title">Civic Compute Framework</p>
+      <p class="footer-tagline">A policy framework for the public interest</p>
+    </div>
+    <p class="footer-print">This framework is in public draft. Contributions welcome.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

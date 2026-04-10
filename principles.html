@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Principles — Civic Compute Framework</title>
+  <meta name="description" content="Core principles for sovereign, portable, and legible public AI — and responses to common objections." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Roboto+Slab:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-brand" href="index.html">Civic Compute</a>
+      <ul class="nav-links">
+        <li><a href="framework.html">Framework</a></li>
+        <li><a href="compute.html">Compute</a></li>
+        <li><a href="accountability.html">Accountability</a></li>
+        <li><a href="commons.html">Commons</a></li>
+        <li><a href="principles.html" class="is-active" aria-current="page">Principles</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <h1 id="principles-heading" class="reveal">Core Principles</h1>
+        <p class="page-lead reveal">Sovereignty, portability, legibility, evolution, and distribution — the non-negotiables.</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="principles-heading">
+      <div class="container">
+        <ol class="principles-list">
+          <li class="reveal"><span class="principle-num" aria-hidden="true">1</span><div><strong>Sovereignty</strong> — Public services must not be architecturally dependent on private interests</div></li>
+          <li class="reveal"><span class="principle-num" aria-hidden="true">2</span><div><strong>Portability</strong> — Standardized outputs, not locked implementations</div></li>
+          <li class="reveal"><span class="principle-num" aria-hidden="true">3</span><div><strong>Legibility</strong> — Citizens can understand, question, and change what the model optimizes for</div></li>
+          <li class="reveal"><span class="principle-num" aria-hidden="true">4</span><div><strong>Evolutionary</strong> — The system learns; better models displace worse ones on merit</div></li>
+          <li class="reveal"><span class="principle-num" aria-hidden="true">5</span><div><strong>Distributed</strong> — No single jurisdiction, vendor, or government layer controls the stack</div></li>
+        </ol>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section class="objections-section" aria-labelledby="objections-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <p class="subhead">Practical Barriers</p>
+          <h2 id="objections-heading">Anticipated Objections and How the Framework Addresses Them</h2>
+        </header>
+
+        <details class="objection-accordion reveal">
+          <summary>"Most counties don't have IT staff."</summary>
+          <p class="objection-body">The framework anticipates this. Compute cooperatives — state-hosted shared inference layers — allow small jurisdictions to access registry models via standardized schemas without running their own infrastructure. The interface requirement is an API call, not a data center.</p>
+        </details>
+        <details class="objection-accordion reveal">
+          <summary>"The hyperscalers will fight this."</summary>
+          <p class="objection-body">They may. The permitting leverage argument is real but time-limited — which is precisely why the sequencing matters. The framework doesn't require federal legislation to begin; a single city negotiating a single data center permit is enough to start.</p>
+        </details>
+        <details class="objection-accordion reveal">
+          <summary>"What stops this from being politically captured?"</summary>
+          <p class="objection-body">The distributed architecture is the answer. No single layer controls the stack. The federal registry is governed by a multi-stakeholder board, not a single agency. State schemas define outputs, not implementations. Municipal autonomy over model development is protected by design.</p>
+        </details>
+        <details class="objection-accordion reveal">
+          <summary>"How do we measure success?"</summary>
+          <p class="objection-body">Real-world outcomes, not benchmarks. Accuracy on historical decisions, processing time reduction, citizen satisfaction on service interactions, and equity metrics across demographic groups — tracked per jurisdiction, published annually, and used as the basis for model selection in the registry.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="footer-title">Civic Compute Framework</p>
+      <p class="footer-tagline">A policy framework for the public interest</p>
+    </div>
+    <p class="footer-print">This framework is in public draft. Contributions welcome.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

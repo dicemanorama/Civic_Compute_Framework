@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compute — Civic Compute Framework</title>
+  <meta name="description" content="Securing municipal compute through data center permitting, inference economics, and durable public infrastructure." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Roboto+Slab:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-brand" href="index.html">Civic Compute</a>
+      <ul class="nav-links">
+        <li><a href="framework.html">Framework</a></li>
+        <li><a href="compute.html" class="is-active" aria-current="page">Compute</a></li>
+        <li><a href="accountability.html">Accountability</a></li>
+        <li><a href="commons.html">Commons</a></li>
+        <li><a href="principles.html">Principles</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <h1 id="compute-heading" class="reveal">Securing Infrastructure Before You Need It</h1>
+        <p class="page-lead reveal">Negotiate compute when leverage is real — before inference costs compound indefinitely.</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="compute-heading">
+      <div class="container">
+        <div class="two-col">
+          <div class="reveal">
+            <h2>The Economic Case</h2>
+            <p>The true cost of AI in government is not model development — it's inference. A model trained once can serve a city for decades, but every query to a commercial API compounds that dependency indefinitely. By negotiating compute set-asides during data center permitting — while municipalities hold rare leverage over power-hungry facilities — cities can lock in the infrastructure they'll need before the models are even built.</p>
+            <p>The sequencing matters: secure the compute now, develop the models on whatever timeline funding allows, and deploy into an infrastructure commitment already in place. The marginal cost of inference is locked in at the moment of greatest negotiating power.</p>
+          </div>
+          <aside class="callout-box reveal" aria-labelledby="why-now-title">
+            <h4 id="why-now-title">Why Now?</h4>
+            <blockquote>Data centers require enormous power grid allocations, water rights, and permitting goodwill — all controlled by local government. This leverage is real but time-limited. As the industry matures and geographic options diversify, the negotiating window closes. Municipalities that act during this period can secure durable infrastructure rights that serve the public for generations.</blockquote>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section aria-labelledby="sample-clause-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2 id="sample-clause-heading">What to Ask For in the Next Permit</h2>
+        </header>
+        <div class="reveal">
+          <p>Municipalities currently negotiate traffic studies, affordable housing set-asides, and stormwater infrastructure as permit conditions. Compute access is no different in principle.</p>
+          <div class="permit-clause-wrap">
+            <blockquote class="permit-clause">
+              "As a condition of approval, Applicant shall reserve not less than [X]% of total GPU compute capacity — or an equivalent allocation of [Y] GPU-hours per month — for use by [Municipality] for public-interest AI workloads. This allocation shall be subject to an SLA guaranteeing [Z]% uptime, shall survive any change of operator or ownership of the facility, and shall be transferable to a successor public entity. Specific workload types, access protocols, and performance standards shall be defined in a Compute Access Agreement to be executed prior to certificate of occupancy."
+            </blockquote>
+            <p class="clause-note">This is a starting point for negotiation, not legal advice. A city attorney should adapt it to local permitting law.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule" />
+
+    <section aria-labelledby="inference-cost-heading">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2 id="inference-cost-heading">The Cost You're Not Counting</h2>
+        </header>
+        <div class="commons-extra reveal">
+          <p>The true long-term cost of commercial AI is not the contract or the integration — it's every inference call, forever. Frame this as a present-value problem: a municipality that secures compute access now, when leverage is highest, is hedging decades of operational cost at today's negotiating position.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="footer-title">Civic Compute Framework</p>
+      <p class="footer-tagline">A policy framework for the public interest</p>
+    </div>
+    <p class="footer-print">This framework is in public draft. Contributions welcome.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

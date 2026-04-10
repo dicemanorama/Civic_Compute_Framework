@@ -12,6 +12,8 @@ Government at every level is beginning to rely on AI for public services — per
 
 This framework proposes a different path: **municipal AI infrastructure as public infrastructure** — negotiated, owned, governed, and improved by the communities it serves.
 
+The framework is published as a multi-page website at the [GitHub Pages URL above](https://dicemanorama.github.io/Civic_Compute_Framework).
+
 ---
 
 ## The Core Idea
@@ -24,19 +26,26 @@ Model development is a one-time capital expense. Inference — every query, ever
 
 ### A Three-Layer Governance Architecture
 
-```
-[ Federal ]   ← Synthesize outcomes, surface best-performing models, maintain open registry
-[ State ]     ← Define standardized output schemas, enable inter-regional sharing
-[ Municipal ] ← Develop and maintain models, run inference, incorporate community input
-```
+**Federal** layer: synthesize outcomes, surface best-performing models, maintain an open registry. **State** layer: standardized output schemas, compliance, inter-regional sharing. **Municipal** layer: model development, inference infrastructure, community input.
 
-States define **what** the output must look like. Municipalities decide **how** to produce it. The federal layer learns from what works across all of them.
+States define **what** the output must look like. Municipalities decide **how** to produce it. The federal layer learns from what works across all of them. The phased implementation roadmap is [on the Framework page](framework.html).
 
 ### Standardized Outputs, Not Standardized Models
 Any model that produces a compliant output schema satisfies the requirement. Local governments retain full autonomy over implementation while data flows upward in a consistent format. The interface is standardized; the implementation is not.
 
 ### An Evolutionary Open Commons
 Over time, real-world performance data surfaces which models work best for which problems. High-performing models are contributed to a shared open registry. Every jurisdiction benefits from every other jurisdiction's improvements — not through mandates, but through demonstrated merit.
+
+---
+
+## What's In the Site
+
+- **Framework** ([framework.html](framework.html)) — three-layer architecture and phased implementation roadmap
+- **Compute** ([compute.html](compute.html)) — the permitting leverage argument, sample permit clause language, and inference cost framing
+- **Accountability** ([accountability.html](accountability.html)) — community input, representative accountability, and model diffs as civic infrastructure
+- **Commons** ([commons.html](commons.html)) — the open model registry, contribution mechanics, and validation criteria
+- **Principles** ([principles.html](principles.html)) — the five core principles and responses to common objections
+- **Get Involved** ([get-involved.html](get-involved.html)) — how to open issues, propose changes, and share the framework
 
 ---
 
@@ -71,6 +80,8 @@ This framework is in **public draft**. The ideas here are early and intentionall
 - **Open an Issue** to propose changes, flag problems, or start a discussion
 - **Submit a Pull Request** with edits to any document in this repo
 - **Share it** with anyone working on municipal technology policy, data center permitting, or civic AI governance
+
+The site itself is the primary artifact — pull requests to the HTML/CSS are as welcome as edits to the conceptual content.
 
 All contributions are welcome. No technical background required — this is a policy conversation first.
 
